@@ -1,0 +1,31 @@
+{
+  "name": "consumer/api-rest-full",
+  "minimum-stability": "dev",
+  "description": "Paquete para consumir Api Rest Full con CURL desde PHP",
+  "keywords": [
+    "Api Rest Full",
+    "Consumer Curl",
+    "PHP"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Alver23/consumer-curl-api-rest-full",
+  "type": "project",
+  "authors": [
+      {
+        "name": "Alver Grisales",
+        "email": "viga.23@hotmail.com"
+      }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "^5.2"
+  },
+  "autoload": {
+  	"psr-4": {
+      "ApiConsumer\\": ""
+    },
+    "classmap": [
+      "traits/"
+    ]
+  }
+}
